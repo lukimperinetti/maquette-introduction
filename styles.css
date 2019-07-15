@@ -1,0 +1,285 @@
+/*  Général */
+
+li{
+    list-style: none;
+}
+.sous_titre > li{
+    width: 80px;
+}
+ul{
+    padding: 0;
+}
+h2{
+    color: orange;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*  Div Menu */
+
+.menu_list{
+    display: flex;
+    padding-left: 150px;
+}
+#menu > div > div{
+    width: calc(100% / 5);
+}
+#div_hotel > li > ul{
+    margin: 0;
+}
+.sous_titre{
+    font-size: 10px;
+    color: #A9A9A9;
+    width: 30px;
+    padding: 3px;
+    margin-right: 50px;
+}
+.menu_hotel{
+    border-bottom: 5px solid rgb(255, 136, 0);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #808080;
+}
+.menu_restau{
+    border-bottom: 5px solid rgb(255, 208, 0);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #808080;
+}
+.menu_service{
+    border-bottom: 5px solid rgb(92, 231, 92);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #808080;
+}
+.menu_activite{
+    border-bottom: 5px solid rgb(10, 145, 255);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #808080;
+}
+.menu_plus{
+    border-bottom: 5px solid rgb(214, 71, 214);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #808080;
+}
+.menu_hotel > a{
+    color: #808080;
+    text-decoration: none;
+}
+.menu_restau > li > a{
+    color: #808080;
+    text-decoration: none;
+}
+.menu_service > li > a{
+    color: #808080;
+    text-decoration: none;
+}
+.menu_activite > li > a{
+    color: #808080;
+    text-decoration: none;
+}
+.menu_plus > li > a{
+    color: #808080;
+    text-decoration: none;
+}
+.sous_titre > li > a{
+    color: #A9A9A9;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    margin-top: 42px;
+}
+.container > ul{
+    float: left;
+}
+#menu{
+    display: flex;
+    background-image : url('misc/grille.png'); 
+    background-repeat : repeat;
+}
+#div_hotel, #div_restaurant, #div_services, #div_activites, #div_plus{
+    margin-left: 65px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    float: left;
+    width: 200px;
+}
+
+/* Div Main_Video */
+#main_video{
+    background-image : url('misc/transparent.png');
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    margin-top: 10px;
+    padding-bottom: 36px;
+    background-repeat : repeat;
+}
+#video{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Div Title */
+
+#title{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    background-image : url('misc/grille.png'); 
+    background-repeat : repeat;
+    margin-top: 10px;
+}
+
+#div_title > p{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/* Div Posibilities */
+
+#posibilities{
+    background-image : url('misc/transparent.png');
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 36px;
+    background-repeat : repeat;
+    Overflow:hidden;
+}
+
+#golf{
+    border: 1px solid #D3D3D3;
+    width: 222px;
+    height: 350px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    color: #A9A9A9;
+}
+
+#golf > p{
+    font-size: 12px;
+    text-align: left;
+}
+
+.golf{
+    float: left;
+}
+
+#acc_fast{
+    float: left;
+    width: 222px;
+    height: 390px;
+    padding-top: 23px;
+    margin-left: 14px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #A9A9A9;
+    font-size: 12px;
+}
+#div_possibilities > h2{
+    font-family: 'Oswald', sans-serif;
+}
+#commentaires{
+    float: left;
+    width: 420px;
+    height: 350px;
+    padding-top: 23px;
+    margin-left: 14px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.text{
+    color: #A9A9A9;
+    font-size: 12px;
+}
+.date{
+    color: #A9A9A9;
+    font-size: 10px;
+}
+.accro{
+    padding: 7px;
+    border: solid 1px #C8C8C8;
+}
+
+/* Div Contact */
+
+#contact{
+    display: flex;
+    background-image : url('misc/grille.png'); 
+    background-repeat : repeat;
+    margin-top: 10px;
+    color: #A9A9A9;
+    
+}
+
+.petites_img{
+    float: left;
+}
+
+#nous_contacter, #dernier_billet, #dernier_commentaire, #blablaland{
+    float: left;
+    width: calc(100% / 4);
+    font-size: 13px;
+}
+
+/* Footer */
+
+
+#footer{
+    background-image : url('misc/transparent.png');
+    border-top: 1px solid #C8C8C8;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 36px;
+    background-repeat : repeat;
+
+}
+
+#div_footer{
+    float: left;
+    height: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+}
+.foot{
+    display: flex;
+}
+
+.foot > li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    padding: 3px;
+}
+.foot > li > a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+#networks{
+    padding-top: 10px;
+    float: right;
+}
